@@ -1,5 +1,6 @@
 metodo burbuja 
-![alt text](image.png)
+![alt text](assets/1.png)
 
 Resultado
-![alt text](image-1.png)
+
+![alt text](assets/image.png)
