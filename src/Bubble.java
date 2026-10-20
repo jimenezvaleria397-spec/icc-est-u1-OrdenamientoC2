@@ -12,6 +12,6 @@ public class Bubble {
                 }
             }
         }
-        return null;
+        return arreglo;
     }
 }
