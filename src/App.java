@@ -2,6 +2,10 @@ public class App {
     public static void main(String[] args) throws Exception {
         int [] original = {5, 6, 4, 1, 2 , 3};
         int [] b = original.clone();
+        int [] c = original.clone();
+        int [] d = original.clone();
+
+
         
         //int [] c = original;
         // Instancio la clase Bubble para llamar al metodo sort e importar 
@@ -13,16 +17,14 @@ public class App {
         bubble.sort(b);
         printArreglo(b);
         // Ejecutar el codigo de selection.java
-        printArreglo(b);
-        selection.sort(b);
-        System.out.println("Arreglo original;");
-        printArreglo(b);
+        printArreglo(c);
+        selection.sort(c);
+        System.out.println("Arreglo ordenado;");
+        printArreglo(c);
         //Ejecturar el codigo de insertion.java
         System.out.println("Arreglo Original");
-        printArreglo(b);
-        insertion.sort(b);
-        System.out.println("Ordenado");
-        printArreglo(b);
+        printArreglo(d);
+        insertion.sort(d);
         }
         //metodo que imprime el arreglo
         public static void printArreglo(int [] arr){
