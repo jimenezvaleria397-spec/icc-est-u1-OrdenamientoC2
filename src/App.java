@@ -7,6 +7,7 @@ public class App {
         // Instancio la clase Bubble para llamar al metodo sort e importar 
         Bubble bubble = new Bubble();
         Selection selection = new Selection();
+        InsertionSort insertion = new InsertionSort();
         //Ejecutar el codigo del archivo bubblle.java
         printArreglo(b);
         bubble.sort(b);
@@ -14,6 +15,13 @@ public class App {
         // Ejecutar el codigo de selection.java
         printArreglo(b);
         selection.sort(b);
+        System.out.println("Arreglo original;");
+        printArreglo(b);
+        //Ejecturar el codigo de insertion.java
+        System.out.println("Arreglo Original");
+        printArreglo(b);
+        insertion.sort(b);
+        System.out.println("Ordenado");
         printArreglo(b);
         }
         //metodo que imprime el arreglo
