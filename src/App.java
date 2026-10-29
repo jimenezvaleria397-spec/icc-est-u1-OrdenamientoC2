@@ -10,8 +10,10 @@ public class App {
         //runEjemplosPrimitivos();
         //runEjemplosObjetos();
         //runComparators();
-        runComparatorObj2();
-        runComparatorObj();
+        //runComparatorObj2();
+        //runComparatorObj();
+        Comparators comparators = new Comparators();
+        
     }   
     private static void runComparators() {
         Integer[] original = {5, 6, 4 , 1 , 2, 3};
